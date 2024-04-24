@@ -103,3 +103,35 @@ why do we use unit test cases even though we can deploy application without it?
 code:- given :-[1,2,4,0,2,1,3,0,5,0,7,0]
        output:-[1,2,4,2,1,3,5,7,0,0,0,0]
 	   All 0 should be in right direction and all non zero numbers should be in left
+
+============================================================================================
+
+Cybage Interview Questions
+
+1. Diamond ambiguity is still in java? what if two interfaces have same default method then 
+   the class which implements these method will face any ambiguity?
+2. what is the use of default methods in interfaces will it affect the program?
+3. if we do not want to override method of interface what to do?
+4. why String is immutable?
+   String str1 = new String("Hello");
+   String str2 = "Hello";
+   String str3 = new String("Hello");
+   
+   is str1 == str2 == str3?
+   
+5. what is stringpool?
+6. what is use of final class? where it is used?
+7. difference between abstract class and concrete class and interfaces?
+8. what is actual use of interfaces in project?
+9. What are functional interfaces and what is there actual purpose?
+10. write a function using stream and lamda expression to find third highest salary of employee
+11. map vs flatmap
+12. internal working of springboot, how it uses servlet and jdbc?
+13. @component and @bean difference
+14. how maven build the springboot application? explain the whole process
+15. how to change database server in jdbc?
+16. how to configure tomcat server?
+17. Given Employee table and department table with dept id is foreign key in employee table 
+     write query to find employee name, department, salary from employee table
+18. What is serialization ? how to use it?
+19. comparable vs comparator?
